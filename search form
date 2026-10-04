@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ella search form</title>
+        <link rel="stylesheet" type="text/css" href="search-style.css">
+    </head>
+    <body>
+        <form>
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search">
+            <input type="submit" value="Submit">
+            <h2></h2>
+        </form>
+    </body>
+</html>
