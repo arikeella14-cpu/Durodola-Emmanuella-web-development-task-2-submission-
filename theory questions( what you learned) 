@@ -1,0 +1,19 @@
+1.	What does the action attribute do?
+
+Ans: the action attribute identifies the destination of which the from submitting is sent and it use used at the from submitting address 
+
+2.	What does the method attribute do?
+
+Ans:it specifies how a browser should submit a form
+
+3.	Why is GET commonly useful for a search form?
+
+Ans: GET is used for search from because it shows results of the data inputed and make. Information easy to access by anyone without authorization 
+
+4.	Why might POST be used for a registration form?
+
+Ans: POST can be use for a registration from because it hides data, send details directly tor the source and can only be accessed by authorization and make data uneasy to access unlike GET
+
+5.	Does using POST automatically make information secure? Explain why or why not
+
+Ans: No, POST does not automatically make information secure, it only creates a security authorization to make data  hidden 
