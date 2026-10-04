@@ -1,1 +1,50 @@
-Students reg form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Student Registration Form</h1>
+        <form action="/register" method="POST">
+        </form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Full Nameame" required><br>
+<br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" required><br>
+<br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Password" required><br>
+<br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+         <input type="radio" name="gender" value="female" required> Female <br>
+<br>
+
+ <label for="Country">Country:</label>
+     <select name="country" id="select"><br>
+   <option value="Nigeria">Nigeria</option><br>
+   <option value="Ghana">Ghana</option><br>
+   <option value="Kenya">Kenya</option><br>
+   <option value="South Africa">South Africa</option><br>
+<br>
+
+ <label for="message">Message:</label>
+    <textarea name="message" placeholder="Write your message here..."></textarea>
+<br>
+
+ <input type="checkbox" id="Terms and conditions">
+ <label for="terms and conditions">I Agree to the Terms and Conditions</label><br>
+<br>
+
+ <input type="Submit"/> 
+ <br>
+
+ 
